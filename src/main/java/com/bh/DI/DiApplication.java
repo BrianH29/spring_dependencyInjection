@@ -15,8 +15,6 @@ public class DiApplication {
 
 	public static void main(String[] args) {
 		try(ConfigurableApplicationContext context = SpringApplication.run(DiApplication.class, args)) {
-
-			Scanner scanner = new Scanner(System.in);
 			System.out.println("Enter 2 numbers like 'a b' : ");
 
 			ArgumentResolver argumentResolver = context.getBean(ArgumentResolver.class);

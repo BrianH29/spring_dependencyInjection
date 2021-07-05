@@ -1,4 +1,4 @@
-package com.bh.DI;
+package com.bh.DI.Argument;
 
 import org.springframework.stereotype.Component;
 

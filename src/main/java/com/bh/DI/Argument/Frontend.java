@@ -1,7 +1,8 @@
-package com.bh.DI;
+package com.bh.DI.Argument;
 
 import com.bh.DI.Argument.Argument;
 import com.bh.DI.Argument.ArgumentResolver;
+import com.bh.DI.Argument.Calculator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

@@ -1,8 +1,11 @@
 package com.bh.DI.Argument;
 
+import org.springframework.stereotype.Component;
+
 import java.io.InputStream;
 import java.util.Scanner;
 
+@Component
 public class ScannerArgumentResolver implements ArgumentResolver{
     @Override
     public Argument resolve(InputStream stream) {
